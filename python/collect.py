@@ -16,7 +16,7 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-YUDOU_HOME = "https://www.yudou66.cc/"
+YUDOU_HOME = "https://www.yudou77.top/"
 OUTPUT_DIR = "../output/"
 
 
