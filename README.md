@@ -10,9 +10,11 @@
 - clash订阅链接
   ```
   https://ghproxy.net/https://raw.githubusercontent.com/cook369/yudou-collect/main/output/clash.yaml
+  https://github.moeyy.xyz/https://raw.githubusercontent.com/cook369/yudou-collect/main/output/clash.yaml
   ```
 
 - v2ray订阅链接
   ```
   https://ghproxy.net/https://raw.githubusercontent.com/cook369/yudou-collect/main/output/v2ray.txt
+  https://github.moeyy.xyz/https://raw.githubusercontent.com/cook369/yudou-collect/main/output/v2ray.txt
   ```
