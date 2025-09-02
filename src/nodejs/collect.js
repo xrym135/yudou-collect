@@ -4,8 +4,8 @@ const axios = require('axios');
 const CryptoJS = require('crypto-js');
 const path = require('path');
 
-const HOME_URL = 'https://www.yudou66.com/';
-const OUTPUT_DIR = path.resolve(__dirname, '../output');
+const HOME_URL = 'https://yudou.cook369.xyz/';
+const OUTPUT_DIR = path.resolve(__dirname, '../../dist');
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -51,7 +51,7 @@ function bruteForceDecrypt(encryption) {
   throw new Error('Failed to decrypt the encryption data');
 }
 
-function parseUrlsFromData() {
+function parseUrlsFromData(data) {
   const urls = data.match(/http.*\.(txt|yaml)/g);
   if (urls.length === 0) {
     throw new Error('No URLs found in decrypted data');

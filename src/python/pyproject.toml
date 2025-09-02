@@ -1,8 +1,7 @@
 [project]
-name = "python"
-version = "1.1.0"
+name = "yudou-collect"
+version = "1.1.1"
 description = "yudou-collect"
-readme = "../README.md"
 requires-python = ">=3.13"
 dependencies = [
     "lxml==6.0.1",
@@ -12,7 +11,9 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "types-requests>=2.32.4.20250809",
     "types-lxml>=2025.8.25",
 ]
+
 
 

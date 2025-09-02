@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version-file: "./python/pyproject.toml"
+          python-version-file: "./src/python/pyproject.toml"
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6
@@ -26,15 +26,15 @@ jobs:
           enable-cache: true
 
       - name: Install the project
-        run: cd python && uv sync --locked
+        run: cd src/python && uv sync --locked
 
       - name: Collect
         run: |
-          cd python && uv run python collect.py
+          cd src/python && uv run collect.py
       - name: Commit && Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add output
+          git add dist
           git diff-index --quiet HEAD output || git commit -m "feat: update collect"
           git push
