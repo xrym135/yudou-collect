@@ -1,14 +1,12 @@
 ======================================================================
                            DOWNLOAD REPORT                            
-                    Generated: 2025-09-03 18:35:01                    
+                    Generated: 2025-09-03 20:26:56                    
 ======================================================================
-Total sites: 7, Total URLs: 2, New URLs: 2
+Total sites: 7, Total URLs: 0, New URLs: 0
 ----------------------------------------------------------------------
 [85la] Status: failed, Total URLs: 0, New URLs: 0
 ----------------------------------------------------------------------
-[cfmeme] Status: success, Total URLs: 2, New URLs: 2
-    - https://fs.v2rayse.com/share/20250903/2t2he7od9k.yaml
-    - https://fs.v2rayse.com/share/20250903/n6brwa3qtm.txt
+[cfmeme] Status: failed, Total URLs: 0, New URLs: 0
 ----------------------------------------------------------------------
 [datiya] Status: success, Total URLs: 0, New URLs: 0
 ----------------------------------------------------------------------
