@@ -11,8 +11,17 @@
 
 ---
 ---
+---
 
 ## 每日更新订阅
 
+### cfmeme 订阅链接
+
+```shell
+https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/cfmeme/clash.yaml
+```
+```shell
+https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/cfmeme/v2ray.txt
+```
 
 ---
