@@ -13,6 +13,7 @@
 ---
 ---
 ---
+---
 
 ## 每日更新订阅
 
@@ -23,6 +24,14 @@ https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main
 ```
 ```shell
 https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/cfmeme/v2ray.txt
+```
+### yudou 订阅链接
+
+```shell
+https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/yudou/clash.yaml
+```
+```shell
+https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/yudou/v2ray.txt
 ```
 
 ---
