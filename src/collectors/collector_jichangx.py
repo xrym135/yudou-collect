@@ -1,16 +1,17 @@
 from datetime import datetime
 from lxml import etree
-from .base import BaseCollector
+from .base import BaseCollector, register_collector
 
 
+@register_collector
 class CollectorJichangx(BaseCollector):
     name = "jichangx"
-    home_page = "https://jichangx.com/"
+    home_page = "https://jichangx.com"
 
-    def get_today_url(self, home_etree: etree._Element) -> str:
+    def get_today_url(self, home_page: str) -> str:
         return f"{self.home_page}/free-nodes-{datetime.now().strftime('%Y-%m-%d')}/"
 
-    def get_fix_urls(self) -> list[tuple[str, str]]:
+    def get_dynamic_urls(self) -> list[tuple[str, str]]:
         urls = [
             (
                 "v2ray.txt",

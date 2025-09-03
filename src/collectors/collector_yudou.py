@@ -5,15 +5,15 @@ from lxml import etree
 from Crypto.Cipher import AES
 from Crypto.Hash import MD5
 from Crypto.Util.Padding import unpad
-from .base import BaseCollector
+from .base import BaseCollector, register_collector
 
 
+@register_collector
 class CollectorYudou(BaseCollector):
     name = "yudou"
-    home_page = "https://yudou.cook369.xyz/"
+    home_page = "https://www.yudou123.top/"
     AES_PATTERN = r"U2FsdGVkX1[0-9A-Za-z+/=]+"
     PASSWORD_RANGE = (1000, 9999)
-    heaers = {"x-target-url": "https://www.yudou123.top/"}
 
     def evp_bytes_to_key(
         self, password: str, salt: bytes, key_len: int = 32, iv_len: int = 16
@@ -45,13 +45,15 @@ class CollectorYudou(BaseCollector):
                 continue
         raise ValueError("Failed to brute-force the encryption password.")
 
-    def get_today_url(self, home_etree: etree._Element) -> str:
+    def get_today_url(self, home_page: str) -> str:
+        home_etree = etree.HTML(home_page)
         links = home_etree.xpath('//*[@id="main"]//a/@href')
         if not links:
             raise ValueError("No links found on homepage.")
         return links[0]
 
-    def parse_urls(self, page_etree: etree._Element) -> list[tuple[str, str]]:
+    def parse_urls(self, today_page: str) -> list[tuple[str, str]]:
+        page_etree = etree.HTML(today_page)
         scripts = page_etree.xpath("//script[contains(text(), 'U2FsdGVkX1')]/text()")
         if not scripts:
             raise ValueError("No encryption scripts found.")

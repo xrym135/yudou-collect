@@ -1,20 +1,22 @@
 import re
 from lxml import etree
-from .base import BaseCollector
+from .base import BaseCollector, register_collector
 
 
+@register_collector
 class CollectorCfmem(BaseCollector):
     name = "cfmeme"
-    home_page = "https://yudou.cook369.xyz/"
-    heaers = {"x-target-url": "https://www.cfmem.com/"}
+    home_page = "https://www.cfmem.com"
 
-    def get_today_url(self, home_etree: etree._Element) -> str:
+    def get_today_url(self, home_page: str) -> str:
+        home_etree = etree.HTML(home_page)
         links = home_etree.xpath('//*[@id="Blog1"]/div[1]/article[1]/div[1]/h2/a/@href')
         if not links:
             raise ValueError("No links found on homepage.")
         return links[0]
 
-    def parse_urls(self, page_etree: etree._Element) -> list[tuple[str, str]]:
+    def parse_urls(self, today_page: str) -> list[tuple[str, str]]:
+        page_etree = etree.HTML(today_page)
         rules = {
             "clash.yaml": [
                 '//*[@id="post-body"]/div/div[4]/div[2]/span/text()',

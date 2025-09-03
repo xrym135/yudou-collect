@@ -1,16 +1,16 @@
-from lxml import etree
-from .base import BaseCollector
+from .base import BaseCollector, register_collector
 from datetime import datetime
 
 
+@register_collector
 class CollectorDatiya(BaseCollector):
     name = "datiya"
-    home_page = "https://free.datiya.com/"
+    home_page = "https://free.datiya.com"
 
-    def get_today_url(self, home_etree: etree._Element) -> str:
-        return f"{self.home_page}post/{datetime.now().strftime('%Y%m%d')}/"
+    def get_today_url(self, home_page: str) -> str:
+        return f"{self.home_page}/post/{datetime.now().strftime('%Y%m%d')}/"
 
-    def get_fix_urls(self) -> list[tuple[str, str]]:
+    def get_dynamic_urls(self) -> list[tuple[str, str]]:
         url_suffix = f"{datetime.now().strftime('%Y%m%d')}"
         urls = [
             (
