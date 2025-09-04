@@ -34,6 +34,9 @@ https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main
 ```shell
 https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/datiya/clash.yaml
 ```
+```shell
+https://ghproxy.net/https://raw.githubusercontent.com/cook369/proxy-collect/main/dist/datiya/v2ray.txt
+```
 ### jichangx 订阅链接
 
 ```shell

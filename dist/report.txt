@@ -1,34 +1,22 @@
 ======================================================================
                            DOWNLOAD REPORT                            
-                    Generated: 2025-09-04 03:42:05                    
+                    Generated: 2025-09-04 03:49:42                    
 ======================================================================
-Total sites: 7, Total URLs: 13, New URLs: 13
+Total sites: 7, Total URLs: 13, New URLs: 1
 ----------------------------------------------------------------------
-[85la] Status: success, Total URLs: 2, New URLs: 2
-    - https://www.85la.com/wp-content/uploads/2025/09/202509037153KVyv3z.txt
-    - https://www.85la.com/wp-content/uploads/2025/09/202509037173MLTDsX.yaml
+[85la] Status: success, Total URLs: 2, New URLs: 0
 ----------------------------------------------------------------------
-[cfmeme] Status: success, Total URLs: 2, New URLs: 2
-    - https://fs.v2rayse.com/share/20250904/7gl08hfvbq.txt
-    - https://fs.v2rayse.com/share/20250904/nv6zwzsuj0.yaml
+[cfmeme] Status: success, Total URLs: 2, New URLs: 0
 ----------------------------------------------------------------------
-[datiya] Status: success, Total URLs: 2, New URLs: 2
-    - https://free.datiya.com/uploads/20250904-clash.yaml
+[datiya] Status: success, Total URLs: 2, New URLs: 1
     - https://free.datiya.com/uploads/20250904-v2ray.txt
 ----------------------------------------------------------------------
-[jichangx] Status: success, Total URLs: 1, New URLs: 1
-    - https://jichangx.com/nodes/v2ray-20250904-01
+[jichangx] Status: success, Total URLs: 1, New URLs: 0
 ----------------------------------------------------------------------
-[nodefree] Status: success, Total URLs: 2, New URLs: 2
-    - https://nodefree.githubrowcontent.com/2025/09/20250904.txt
-    - https://nodefree.githubrowcontent.com/2025/09/20250904.yaml
+[nodefree] Status: success, Total URLs: 2, New URLs: 0
 ----------------------------------------------------------------------
-[oneclash] Status: success, Total URLs: 2, New URLs: 2
-    - https://oneclash.githubrowcontent.com/2025/09/20250904.txt
-    - https://oneclash.githubrowcontent.com/2025/09/20250904.yaml
+[oneclash] Status: success, Total URLs: 2, New URLs: 0
 ----------------------------------------------------------------------
-[yudou] Status: success, Total URLs: 2, New URLs: 2
-    - https://yy.yudou66.top/202509/2025.9.4Claj6sh.yaml
-    - https://yy.yudou66.top/202509/20250904baf3se.txt
+[yudou] Status: success, Total URLs: 2, New URLs: 0
 ----------------------------------------------------------------------
 ======================================================================
