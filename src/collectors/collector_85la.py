@@ -1,3 +1,4 @@
+import logging
 from lxml import etree
 from .base import BaseCollector, register_collector
 
@@ -30,3 +31,12 @@ class Collector85la(BaseCollector):
             if hrefs:
                 urls.append((filename, hrefs[0]))
         return urls
+    
+    def get_download_urls(self) -> list[tuple[str, str]]:
+        home_page = self.fetch_html(self.home_page)
+        today_url = self.get_today_url(home_page)
+        if not today_url:
+            return []
+        logging.info(f"Today's URL: {today_url}")
+        today_page = self.fetch_html(today_url)
+        return self.parse_urls(today_page)

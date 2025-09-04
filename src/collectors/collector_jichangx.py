@@ -8,10 +8,7 @@ class CollectorJichangx(BaseCollector):
     name = "jichangx"
     home_page = "https://jichangx.com"
 
-    def get_today_url(self, home_page: str) -> str:
-        return f"{self.home_page}/free-nodes-{datetime.now().strftime('%Y-%m-%d')}/"
-
-    def get_dynamic_urls(self) -> list[tuple[str, str]]:
+    def get_download_urls(self) -> list[tuple[str, str]]:
         urls = [
             (
                 "v2ray.txt",

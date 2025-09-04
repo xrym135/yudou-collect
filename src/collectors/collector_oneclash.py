@@ -8,16 +8,7 @@ class CollectorOneclash(BaseCollector):
     name = "oneclash"
     home_page = "https://oneclash.cc"
 
-    def get_today_url(self, home_page: str) -> str:
-        home_etree = etree.HTML(home_page)
-        links = home_etree.xpath(
-            "/html/body/section/div/div/div[1]/div[1]/div[1]/div/div[2]/div/div[1]/h2/a/@href"
-        )
-        if not links:
-            raise ValueError("No links found on homepage.")
-        return links[0]
-
-    def get_dynamic_urls(self) -> list[tuple[str, str]]:
+    def get_download_urls(self) -> list[tuple[str, str]]:
         url_suffix = f"{datetime.now().strftime('%Y/%m/%Y%m%d')}"
         urls = [
             (

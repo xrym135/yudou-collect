@@ -69,7 +69,6 @@ def get_proxy_list() -> list[str]:
     proxies = []
     for PROXY_URL in PROXY_URLS:
         PROXY_URL = f"{GITHUB_PROXY}/{PROXY_URL}"
-        logging.info(f"Fetching proxies from: {PROXY_URL}")
         resp = requests.get(PROXY_URL, timeout=30)
         resp.raise_for_status()
         proxy = [
@@ -77,6 +76,7 @@ def get_proxy_list() -> list[str]:
             for line in resp.text.splitlines()
             if line.strip()
         ]
+        logging.info(f"Fetching proxies from: {PROXY_URL}, {len(proxy)}")
         proxies.extend(proxy[:500])
     proxies = list(set(proxies))
     logging.info(f"Get All Proxy: {len(proxies)}")
@@ -144,7 +144,7 @@ def update_readme(
     sites = [d.name for d in output_dir.iterdir() if d.is_dir()]
 
     # 构建每日更新订阅内容
-    lines = ["---", "\n## 每日更新订阅\n"]
+    lines = ["\n## 每日更新订阅\n"]
 
     for site in sorted(sites):
         site_dir = output_dir / site

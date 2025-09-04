@@ -1,4 +1,5 @@
 import base64
+import logging
 import re
 import urllib.parse
 from lxml import etree
@@ -63,8 +64,8 @@ class CollectorYudou(BaseCollector):
         encrypted_data = match.group(0)
         decrypted_data = self.brute_force_password(encrypted_data)
         rules = {
-            "clash.yaml": r"https?://[^\s'\"<>]+?\.(?:txt)",
-            "v2ray.txt": r"https?://[^\s'\"<>]+?\.(?:yaml)",
+            "clash.yaml": r"https?://[^\s'\"<>]+?\.(?:yaml)",
+            "v2ray.txt": r"https?://[^\s'\"<>]+?\.(?:txt)",
         }
         urls: list[tuple[str, str]] = []
         for filename, regex_expr in rules.items():
@@ -72,3 +73,12 @@ class CollectorYudou(BaseCollector):
             if hrefs:
                 urls.append((filename, str(hrefs[0])))
         return urls
+    
+    def get_download_urls(self) -> list[tuple[str, str]]:
+        home_page = self.fetch_html(self.home_page)
+        today_url = self.get_today_url(home_page)
+        if not today_url:
+            return []
+        logging.info(f"Today's URL: {today_url}")
+        today_page = self.fetch_html(today_url)
+        return self.parse_urls(today_page)
