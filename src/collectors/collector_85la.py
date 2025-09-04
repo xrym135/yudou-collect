@@ -31,7 +31,7 @@ class Collector85la(BaseCollector):
             if hrefs:
                 urls.append((filename, hrefs[0]))
         return urls
-    
+
     def get_download_urls(self) -> list[tuple[str, str]]:
         home_page = self.fetch_html(self.home_page)
         today_url = self.get_today_url(home_page)

@@ -1,10 +1,16 @@
 import argparse
-from datetime import datetime
+import datetime
 import logging
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import random
 import requests
+from tabulate import tabulate
+from tqdm import tqdm
+
+
 from collectors.base import (
+    CollectorResult,
     DownloadRecord,
     get_collector,
     list_collectors,
@@ -24,6 +30,7 @@ PROXY_URLS = [
     "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/refs/heads/master/socks5.txt",
 ]
 TEST_URL = "http://httpbin.org/ip"
+MAX_AVAILABLE_PROXIES = 50
 
 
 logging.basicConfig(
@@ -31,36 +38,48 @@ logging.basicConfig(
 )
 
 
-def test_request(url: str, proxy: str, timeout: int = 5) -> bool:
+def test_proxy_head(url: str, proxy: str, timeout: int = 5) -> bool:
     session = requests.Session()
     session.verify = False
     proxies = {"http": proxy, "https": proxy}
-    resp = session.get(url, proxies=proxies, timeout=timeout)
-    resp.raise_for_status()
-    return True
+    try:
+        resp = session.head(url, proxies=proxies, timeout=timeout)
+        resp.raise_for_status()
+        return True
+    except Exception:
+        return False
 
 
 def check_proxy(proxies: list[str]) -> list[str]:
     available_proxies: list[str] = []
-    tested = 0
+    total = len(proxies)
     with ThreadPoolExecutor(max_workers=20) as executor:
-        futures = {executor.submit(test_request, TEST_URL, p): p for p in proxies}
-        for future in as_completed(futures):
-            proxy = futures[future]
-            tested += 1
-            total = len(proxies)
-            try:
-                future.result()
-                available_proxies.append(proxy)
-                if len(available_proxies) >= 40:
-                    break
-
-            except Exception:
-                logging.debug(f"Proxy failed: {proxy}")
-            if tested % 60 == 0:
-                logging.info(
-                    f"Checked {tested}/{total}, available: {len(available_proxies)}"
+        futures = {executor.submit(test_proxy_head, TEST_URL, p): p for p in proxies}
+        with tqdm(
+            total=total,
+            desc="Proxy Checking",
+            unit="proxy",
+        ) as pbar:
+            for future in as_completed(futures):
+                proxy = futures[future]
+                try:
+                    future.result()
+                    available_proxies.append(proxy)
+                    if len(available_proxies) >= MAX_AVAILABLE_PROXIES:
+                        for f in futures:
+                            if not f.done():
+                                f.cancel()
+                        break
+                except Exception:
+                    logging.debug(f"Proxy failed: {proxy}")
+                pbar.update(1)
+                pbar.set_postfix(
+                    {
+                        "Available": len(available_proxies),
+                        "Checked": f"{pbar.n}/{total}",
+                    }
                 )
+
     logging.info(f"Get avaliable Proxy: {len(available_proxies)}")
     return available_proxies
 
@@ -72,12 +91,12 @@ def get_proxy_list() -> list[str]:
         resp = requests.get(PROXY_URL, timeout=30)
         resp.raise_for_status()
         proxy = [
-            f"socks5://{line.strip()}"
+            f"socks5h://{line.strip()}"
             for line in resp.text.splitlines()
             if line.strip()
         ]
         logging.info(f"Fetching proxies from: {PROXY_URL}, {len(proxy)}")
-        proxies.extend(proxy[:500])
+        proxies.extend(random.sample(proxy, min(500, len(proxy))))
     proxies = list(set(proxies))
     logging.info(f"Get All Proxy: {len(proxies)}")
     return check_proxy(proxies)
@@ -92,46 +111,24 @@ def run_collector(
     return collector.run(output_dir, record)
 
 
-def write_download_report(results: list[dict], report_file: Path):
+def write_download_report(results: list[CollectorResult], report_file: Path):
     report_lines = []
-
-    # 报告标题和时间
-    report_lines.append("=" * 70)
-    report_lines.append("DOWNLOAD REPORT".center(70))
-    report_lines.append(
-        f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}".center(70)
-    )
-    report_lines.append("=" * 70)
-
-    total_sites = len(results)
-    total_urls = sum(r["total_urls"] for r in results)
-    total_new = sum(len(r["new_urls"]) for r in results)
-    report_lines.append(
-        f"Total sites: {total_sites}, Total URLs: {total_urls}, New URLs: {total_new}"
-    )
-    report_lines.append("-" * 70)
-
-    # 按站点分组输出
-    for r in sorted(results, key=lambda x: x["site"]):
-        site = r["site"]
-        total = r["total_urls"]
-        new_count = len(r["new_urls"])
-        status = r["result"]
-
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    report_lines.append(f"\n# Collect Time: {now}\n")
+    for r in results:
+        report_lines.append(f"\n## Site: {r.site}\n")
+        table = []
+        for url in r.all_urls:
+            status = r.url_status.get(url)
+            tried = "Yes" if url in r.tried_urls else "No"
+            success = "Yes" if status else "No"
+            table.append([url, tried, success])
+        headers = ["URL", "Tried", "Success"]
+        report_lines.append(tabulate(table, headers, tablefmt="github"))
         report_lines.append(
-            f"[{site}] Status: {status}, Total URLs: {total}, New URLs: {new_count}"
+            f"\n采集成功: {len(r.success_urls)} / 采集失败: {len(r.failed_urls)}\n"
         )
-        if new_count:
-            for u in sorted(r["new_urls"]):
-                report_lines.append(f"    - {u}")
-        report_lines.append("-" * 70)
-
-    report_lines.append("=" * 70)
-
-    # 写入文件
     report_file.write_text("\n".join(report_lines), encoding="utf-8")
-
-    # 打印到控制台
     print("\n".join(report_lines))
 
 
@@ -219,6 +216,8 @@ def main():
     logging.info(f"Collectors to run: {collectors_to_run}")
 
     proxy_list = get_proxy_list()
+
+    logging.info(f"Get avaliable proxy: {len(proxy_list)}")
 
     # 使用 ThreadPoolExecutor 并发运行采集器
     results = []

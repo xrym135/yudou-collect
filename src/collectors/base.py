@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import logging
@@ -13,6 +14,17 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 COLLECTOR_REGISTRY: dict[str, type["BaseCollector"]] = {}
 
 
+@dataclass
+class CollectorResult:
+    site: str
+    all_urls: list[str]
+    tried_urls: list[str]
+    success_urls: list[str]
+    failed_urls: list[str]
+    url_status: dict[str, bool]
+    result: str
+
+
 class DownloadRecord:
     """管理各站点下载记录，每次新获取 URL 覆盖旧记录"""
 
@@ -25,19 +37,20 @@ class DownloadRecord:
                 self.data = json.loads(record_file.read_text(encoding="utf-8"))
             except Exception:
                 logging.warning(f"Failed to load record from {record_file}")
-    
+
     def update_site(self, site: str, site_data: dict[str, bool]) -> None:
         with self.lock:
             self.data[site] = site_data
-            self.save_record()
 
     def is_downloaded(self, site: str, url: str) -> bool:
         with self.lock:
             return self.data.get(site, {}).get(url, False)
 
-    def save_record(self):
+    def save(self):
         with self.lock:
-            self.record_file.write_text(json.dumps(self.data, indent=2), encoding="utf-8")
+            self.record_file.write_text(
+                json.dumps(self.data, indent=2), encoding="utf-8"
+            )
 
 
 class ProxyManager:
@@ -45,13 +58,18 @@ class ProxyManager:
 
     def __init__(self, proxies_list: list[str] | None = None):
         self.lock = threading.RLock()
-        self.proxies_list = proxies_list or []
-        self.proxies_list.insert(0, "")
+        # 代理优先级字典，初始优先级为0，越高越优先
+        self.priority = {}
+        proxies = proxies_list or []
+        # proxies.insert(0, "")
+        for p in proxies:
+            self.priority[p] = 0
         self.session = requests.Session()
         self.session.verify = False
         self.session.headers.update(
             {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
         )
+        self.executor = ThreadPoolExecutor(max_workers=10)
 
     def _request(
         self, url: str, proxy: str | None, timeout: int = 30
@@ -66,24 +84,41 @@ class ProxyManager:
     def fetch_html(
         self, url: str, max_workers: int = 10, timeout: int = 30
     ) -> requests.Response:
-                    
-        proxies = self.proxies_list.copy()
-        if not proxies:
+        with self.lock:
+            # 按优先级降序排序
+            sorted_proxies = sorted(
+                self.priority.keys(), key=lambda p: -self.priority[p]
+            )
+        if not sorted_proxies:
             raise RuntimeError(f"All proxies failed to fetch {url}")
-        with ThreadPoolExecutor(max_workers=min(max_workers, len(proxies))) as executor:
-            futures = {
-                executor.submit(self._request, url, p, timeout): p for p in proxies
-            }
-            for future in as_completed(futures):
-                proxy = futures[future]
-                try:
-                    resp = future.result()
-                    extralog = f"with proxy: {proxy}" if proxy else ""
-                    logging.info(f"Successfully fetched {url} {extralog}")
-                    return resp
-                except Exception as e:
-                    logging.debug(f"Proxy {proxy} failed: {e}")
+
+        futures = {
+            self.executor.submit(self._request, url, p, timeout): p
+            for p in sorted_proxies
+        }
+        for future in as_completed(futures):
+            proxy = futures[future]
+            try:
+                resp = future.result()
+                extralog = f"proxy: {proxy}" if proxy else "direct"
+                logging.info(f"Successfully fetched {url} with {extralog}")
+                # 成功后将该代理提前
+                with self.lock:
+                    self.priority[proxy] += 1
+                # 成功后取消其他未完成任务
+                for f in futures:
+                    if f != future:
+                        f.cancel()
+                return resp
+            except Exception as e:
+                logging.debug(f"Proxy {proxy} failed: {e}")
+                # 失败后将该代理后移
+                with self.lock:
+                    self.priority[proxy] -= 1
         raise RuntimeError(f"All proxies failed to fetch {url}")
+
+    def shutdown(self):
+        self.executor.shutdown(wait=True)
 
 
 class BaseCollector(ABC):
@@ -118,13 +153,16 @@ class BaseCollector(ABC):
             path = basedir / filename
             path.write_text(resp_data, encoding="utf-8")
             logging.info(f"[{self.name}] Saved to: {path}")
-            return True 
+            return True
         except Exception as e:
             logging.error(f"[{self.name}] Failed to download {url} {e}, skipping...")
             return False
 
     def download_files(
-        self, urls: list[tuple[str, str]], output_dir: Path, record: DownloadRecord | None = None
+        self,
+        urls: list[tuple[str, str]],
+        output_dir: Path,
+        record: DownloadRecord | None = None,
     ) -> tuple[dict[str, bool], dict[str, bool]]:
         data = {}
         new_url = {}
@@ -137,44 +175,47 @@ class BaseCollector(ABC):
             new_url[u] = ret
         return data, new_url
 
-    # -------------------- 结果管理 -------------------- #
-    def _make_result(
-        self,
-        all_urls: list[tuple[str, str]],
-        new_urls: dict[str, bool],
-        result: str = "success",
-    ):
-        return {
-            "site": self.name,
-            "total_urls": len(all_urls),
-            "new_urls": new_urls,
-            "result": result,
-        }
-
     def run(
         self, output_dir: Path, record: DownloadRecord | None = None
-    ) -> dict[str, str | list[str] | int]:
+    ) -> CollectorResult:
         logging.info(f"[{self.name}] Start collector")
         result = "success"
         urls: list[tuple[str, str]] = []
-        new_urls: dict[str, bool] = {}
+        tried_urls: list[str] = []
+        success_urls: list[str] = []
+        failed_urls: list[str] = []
+        url_status: dict[str, bool] = {}
 
         try:
             urls = self.get_download_urls()
-            
+
             logging.info(f"[{self.name}] Found {len(urls)} URLs.")
-            
+
             site_data, new_urls = self.download_files(urls, output_dir, record)
 
+            url_status = site_data.copy()
+            tried_urls = list(new_urls.keys())
+            success_urls = [u for u, ok in new_urls.items() if ok]
+            failed_urls = [u for u, ok in new_urls.items() if not ok]
             if record:
                 record.update_site(self.name, site_data)
+                record.save()
 
         except Exception as e:
             result = "failed"
             logging.error(f"[{self.name}] Error: {e}")
 
         logging.info(f"[{self.name}] Collector finished")
-        return self._make_result(urls, new_urls, result)
+        self.proxy_manager.shutdown()
+        return CollectorResult(
+            site=self.name,
+            all_urls=[u for _, u in urls],
+            tried_urls=tried_urls,
+            success_urls=success_urls,
+            failed_urls=failed_urls,
+            url_status=url_status,
+            result=result,
+        )
 
 
 # -------------------- 子类注册辅助函数 -------------------- #
