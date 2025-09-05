@@ -1,5 +1,14 @@
 
-# Collect Time: 2025-09-05 04:30:24
+# Collect Time: 2025-09-05 06:36:52
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20250905-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -8,15 +17,6 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/09/20250905.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/09/20250905.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20250905-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -33,8 +33,10 @@
 
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20250905/9mrtrfouic.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20250905/ki5dwix0y4.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -44,22 +46,26 @@
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
 | https://free.datiya.com/uploads/20250905-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20250905-v2ray.txt  | Yes     | No        |
+| https://free.datiya.com/uploads/20250905-v2ray.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 1
-
-
-## Site: yudou
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
+采集成功: 1 / 采集失败: 0
 
 
 ## Site: 85la
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/09/202509050972ihYwL1.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/09/202509050951T2x1PV.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: yudou
+
+| URL                                                | Tried   | Success   |
+|----------------------------------------------------|---------|-----------|
+| https://yy.yudou66.top/202509/2025.9.5Claj6sh.yaml | No      | Yes       |
+| https://yy.yudou66.top/202509/20250905bh5ase.txt   | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
