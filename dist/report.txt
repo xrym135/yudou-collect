@@ -1,71 +1,65 @@
 
-# Collect Time: 2025-09-11 00:42:00
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20250911-01 | Yes     | Yes       |
-
-采集成功: 1 / 采集失败: 0
-
-
-## Site: 85la
-
-| URL                                                                     | Tried   | Success   |
-|-------------------------------------------------------------------------|---------|-----------|
-| https://www.85la.com/wp-content/uploads/2025/09/202509103389peVb9M.yaml | No      | Yes       |
-| https://www.85la.com/wp-content/uploads/2025/09/202509103367TyrfpV.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-09-11 02:22:17
 
 
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20250911-clash.yaml | Yes     | Yes       |
-| https://free.datiya.com/uploads/20250911-v2ray.txt  | Yes     | Yes       |
+| https://free.datiya.com/uploads/20250911-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20250911-v2ray.txt  | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: jichangx
 
-| URL                                                   | Tried   | Success   |
-|-------------------------------------------------------|---------|-----------|
-| https://fs.v2rayse.com/share/20250911/9wr9l3iliq.yaml | Yes     | Yes       |
-| https://fs.v2rayse.com/share/20250911/drnvvvqg7q.txt  | Yes     | Yes       |
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20250911-01 | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/09/20250911.yaml | Yes     | Yes       |
-| https://nodefree.githubrowcontent.com/2025/09/20250911.txt  | Yes     | Yes       |
+| https://nodefree.githubrowcontent.com/2025/09/20250911.yaml | No      | Yes       |
+| https://nodefree.githubrowcontent.com/2025/09/20250911.txt  | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/09/20250911.yaml | Yes     | Yes       |
-| https://oneclash.githubrowcontent.com/2025/09/20250911.txt  | Yes     | Yes       |
+| https://oneclash.githubrowcontent.com/2025/09/20250911.yaml | No      | Yes       |
+| https://oneclash.githubrowcontent.com/2025/09/20250911.txt  | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
+
+
+## Site: cfmeme
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: yudou
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://yy.yudou66.top/202509/2025.9.10Claj5sh.yaml | No      | Yes       |
-| https://yy.yudou66.top/202509/20250910bg3ase.txt    | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: 85la
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
