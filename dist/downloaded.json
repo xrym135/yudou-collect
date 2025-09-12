@@ -1,6 +1,6 @@
 {
   "jichangx": {
-    "https://jichangx.com/nodes/v2ray-20250911-01": true
+    "https://jichangx.com/nodes/v2ray-20250912-01": false
   },
   "cfmeme": {
     "https://fs.v2rayse.com/share/20250911/9wr9l3iliq.yaml": true,
@@ -11,19 +11,19 @@
     "https://www.85la.com/wp-content/uploads/2025/09/202509103367TyrfpV.txt": true
   },
   "nodefree": {
-    "https://nodefree.githubrowcontent.com/2025/09/20250911.yaml": true,
-    "https://nodefree.githubrowcontent.com/2025/09/20250911.txt": true
+    "https://nodefree.githubrowcontent.com/2025/09/20250912.yaml": false,
+    "https://nodefree.githubrowcontent.com/2025/09/20250912.txt": false
   },
   "oneclash": {
-    "https://oneclash.githubrowcontent.com/2025/09/20250911.yaml": true,
-    "https://oneclash.githubrowcontent.com/2025/09/20250911.txt": true
+    "https://oneclash.githubrowcontent.com/2025/09/20250912.yaml": false,
+    "https://oneclash.githubrowcontent.com/2025/09/20250912.txt": false
   },
   "yudou": {
     "https://yy.yudou66.top/202509/2025.9.11Clah7sh.yaml": true,
     "https://yy.yudou66.top/202509/20250911bd3ase.txt": true
   },
   "datiya": {
-    "https://free.datiya.com/uploads/20250911-clash.yaml": true,
-    "https://free.datiya.com/uploads/20250911-v2ray.txt": true
+    "https://free.datiya.com/uploads/20250912-clash.yaml": false,
+    "https://free.datiya.com/uploads/20250912-v2ray.txt": false
   }
 }
