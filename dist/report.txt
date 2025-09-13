@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-09-13 03:19:06
+# Collect Time: 2025-09-13 03:39:38
 
 
 ## Site: datiya
@@ -12,21 +12,21 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20250913-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: nodefree
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/09/20250913.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/09/20250913.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20250913-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -65,7 +65,7 @@
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://yy.yudou66.top/202509/2025.9.13Clah4sh.yaml | Yes     | Yes       |
-| https://yy.yudou66.top/202509/20250913bass4e.txt    | Yes     | Yes       |
+| https://yy.yudou66.top/202509/2025.9.13Clah4sh.yaml | No      | Yes       |
+| https://yy.yudou66.top/202509/20250913bass4e.txt    | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
