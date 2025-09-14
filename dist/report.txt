@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-09-14 12:14:55
+# Collect Time: 2025-09-14 14:04:35
 
 
 ## Site: jichangx
@@ -31,14 +31,14 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: datiya
 
-| URL                                                   | Tried   | Success   |
-|-------------------------------------------------------|---------|-----------|
-| https://fs.v2rayse.com/share/20250912/pygtogg5wr.yaml | No      | Yes       |
-| https://fs.v2rayse.com/share/20250912/exfzsccvq6.txt  | No      | Yes       |
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20250914-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20250914-v2ray.txt  | Yes     | No        |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 0 / 采集失败: 1
 
 
 ## Site: yudou
@@ -61,11 +61,11 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: cfmeme
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20250914-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20250914-v2ray.txt  | Yes     | No        |
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20250912/pygtogg5wr.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20250912/exfzsccvq6.txt  | No      | Yes       |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
