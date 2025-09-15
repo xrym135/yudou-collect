@@ -1,1 +1,1 @@
-<html><head><title>MCP Inspector</title></head><body></body></html>
+<html><head><title>Operator</title></head><body></body></html>
