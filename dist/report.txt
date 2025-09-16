@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-09-16 03:27:22
+# Collect Time: 2025-09-16 03:46:28
 
 
 ## Site: jichangx
@@ -31,22 +31,6 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
@@ -58,6 +42,26 @@
 
 
 ## Site: yudou
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://yy.yudou66.top/202509/2025.9.16Clah3sh.yaml | No      | Yes       |
+| https://yy.yudou66.top/202509/20250916bf3ase.txt    | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: cfmeme
+
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20250912/pygtogg5wr.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20250912/exfzsccvq6.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
