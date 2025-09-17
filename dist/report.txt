@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-09-17 04:11:04
+# Collect Time: 2025-09-17 06:14:37
 
 
 ## Site: jichangx
@@ -41,6 +41,16 @@
 采集成功: 0 / 采集失败: 1
 
 
+## Site: 85la
+
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/09/202509172893gwb2jW.yaml | Yes     | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/09/202509172869tUoSTZ.txt  | Yes     | Yes       |
+
+采集成功: 2 / 采集失败: 0
+
+
 ## Site: cfmeme
 
 | URL                                                   | Tried   | Success   |
@@ -57,15 +67,5 @@
 |-----------------------------------------------------|---------|-----------|
 | https://yy.yudou66.top/202509/2025.9.17Clah3sh.yaml | No      | Yes       |
 | https://yy.yudou66.top/202509/20250917bf3ase.txt    | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: 85la
-
-| URL                                                                     | Tried   | Success   |
-|-------------------------------------------------------------------------|---------|-----------|
-| https://www.85la.com/wp-content/uploads/2025/09/202509145608zguGlw.yaml | No      | Yes       |
-| https://www.85la.com/wp-content/uploads/2025/09/202509145582p4H9Yo.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
