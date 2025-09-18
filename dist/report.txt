@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-09-18 08:13:50
+# Collect Time: 2025-09-18 10:10:54
 
 
 ## Site: datiya
@@ -8,15 +8,6 @@
 |-----------------------------------------------------|---------|-----------|
 | https://free.datiya.com/uploads/20250918-clash.yaml | No      | Yes       |
 | https://free.datiya.com/uploads/20250918-v2ray.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20250918-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -31,6 +22,15 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20250918-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
@@ -41,25 +41,31 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: yudou
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20250918/1tc4q65ugc.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20250918/1t1mdau676.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
 
 ## Site: 85la
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/09/202509182918iWvVOo.yaml | Yes     | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/09/202509182893LHy15a.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
 
 
-## Site: yudou
+## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20250912/pygtogg5wr.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20250912/exfzsccvq6.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
