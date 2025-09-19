@@ -1,1 +1,11 @@
-<html><head><title>TSCEV4.0</title></head><body></body></html>
+REMOTE_ADDR = 43.208.129.50
+REMOTE_PORT = 64169
+REQUEST_METHOD = GET
+REQUEST_URI = /
+REQUEST_TIME_FLOAT = 1758255075.4898734
+REQUEST_TIME = 1758255075
+HTTP_HOST = free.datiya.com
+HTTP_USER-AGENT = Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+HTTP_ACCEPT-ENCODING = gzip, deflate
+HTTP_ACCEPT = */*
+HTTP_CONNECTION = keep-alive
