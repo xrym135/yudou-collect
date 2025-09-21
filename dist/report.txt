@@ -1,44 +1,54 @@
 
-# Collect Time: 2025-09-20 22:07:55
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20250920-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20250920-v2ray.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-09-21 00:46:02
 
 
 ## Site: jichangx
 
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20250920-01 | No      | Yes       |
+| https://jichangx.com/nodes/v2ray-20250921-01 | Yes     | Yes       |
+
+采集成功: 1 / 采集失败: 0
+
+
+## Site: cfmeme
+
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20250921/7v9zaf2s0o.yaml | Yes     | Yes       |
+| https://fs.v2rayse.com/share/20250921/1igdyef3ff.txt  | Yes     | Yes       |
+
+采集成功: 2 / 采集失败: 0
+
+
+## Site: 85la
+
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/09/202509182918iWvVOo.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/09/202509182893LHy15a.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20250921-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20250921-v2ray.txt  | Yes     | No        |
+
+采集成功: 1 / 采集失败: 1
 
 
 ## Site: nodefree
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/09/20250920.yaml | No      | Yes       |
-| https://nodefree.githubrowcontent.com/2025/09/20250920.txt  | No      | Yes       |
+| https://nodefree.githubrowcontent.com/2025/09/20250921.yaml | Yes     | Yes       |
+| https://nodefree.githubrowcontent.com/2025/09/20250921.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
-
-
-## Site: oneclash
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/09/20250920.yaml | No      | Yes       |
-| https://oneclash.githubrowcontent.com/2025/09/20250920.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
 
 
 ## Site: yudou
@@ -51,21 +61,11 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: oneclash
 
-| URL                                                   | Tried   | Success   |
-|-------------------------------------------------------|---------|-----------|
-| https://fs.v2rayse.com/share/20250920/0sdqxkp3gn.yaml | No      | Yes       |
-| https://fs.v2rayse.com/share/20250920/acg29nelog.txt  | No      | Yes       |
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://oneclash.githubrowcontent.com/2025/09/20250921.yaml | Yes     | Yes       |
+| https://oneclash.githubrowcontent.com/2025/09/20250921.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
-
-
-## Site: 85la
-
-| URL                                                                     | Tried   | Success   |
-|-------------------------------------------------------------------------|---------|-----------|
-| https://www.85la.com/wp-content/uploads/2025/09/202509182918iWvVOo.yaml | No      | Yes       |
-| https://www.85la.com/wp-content/uploads/2025/09/202509182893LHy15a.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
