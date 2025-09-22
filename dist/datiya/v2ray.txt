@@ -1,1 +1,1 @@
-<html><head><title>Shikana Mkono</title></head><body></body></html>
+<html><head><title>iStoreOS - QuickStart - LuCI</title></head><body></body></html>
