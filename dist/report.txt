@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-09-22 02:28:41
+# Collect Time: 2025-09-22 03:00:57
 
 
 ## Site: datiya
@@ -55,10 +55,10 @@
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://yy.yudou66.top/202509/2025.9.22Class7h.yaml | Yes     | Yes       |
-| https://yy.yudou66.top/202509/20250922y4base.txt    | Yes     | Yes       |
+| https://yy.yudou66.top/202509/2025.9.22Class7h.yaml | No      | Yes       |
+| https://yy.yudou66.top/202509/20250922y4base.txt    | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: cfmeme
