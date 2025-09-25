@@ -1,6 +1,6 @@
 {
   "jichangx": {
-    "https://jichangx.com/nodes/v2ray-20250925-01": false
+    "https://jichangx.com/nodes/v2ray-20250925-01": true
   },
   "cfmeme": {
     "https://fs.v2rayse.com/share/20250925/xumhapvcmb.yaml": true,
@@ -24,6 +24,6 @@
   },
   "datiya": {
     "https://free.datiya.com/uploads/20250925-clash.yaml": true,
-    "https://free.datiya.com/uploads/20250925-v2ray.txt": false
+    "https://free.datiya.com/uploads/20250925-v2ray.txt": true
   }
 }
