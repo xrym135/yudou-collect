@@ -1,1 +1,1 @@
-<html><head><title>身份验证 - GLPI</title></head><body></body></html>
+<html><head><title>Picurare porumb</title></head><body></body></html>
