@@ -1,1 +1,1 @@
-<html><head><title>Adobe Experience Manager forms</title></head><body></body></html>
+<html><head><title>Swagger UI</title></head><body></body></html>
