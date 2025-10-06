@@ -1,5 +1,15 @@
 
-# Collect Time: 2025-10-06 02:56:08
+# Collect Time: 2025-10-06 03:32:53
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251006-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20251006-v2ray.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: jichangx
@@ -7,16 +17,6 @@
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
 | https://jichangx.com/nodes/v2ray-20251006-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/10/20251006.yaml | No      | Yes       |
-| https://nodefree.githubrowcontent.com/2025/10/20251006.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -31,6 +31,26 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2025/10/20251006.yaml | No      | Yes       |
+| https://nodefree.githubrowcontent.com/2025/10/20251006.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: yudou
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://yy.yudou66.top/202510/2025.10.6Clg3ash.yaml | Yes     | Yes       |
+| https://yy.yudou66.top/202510/20251006bad2se.txt    | Yes     | Yes       |
+
+采集成功: 2 / 采集失败: 0
+
+
 ## Site: 85la
 
 | URL   | Tried   | Success   |
@@ -39,27 +59,11 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: yudou
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251006-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20251006-v2ray.txt  | Yes     | Yes       |
-
-采集成功: 1 / 采集失败: 0
-
-
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20251006/m60x2g5mn8.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20251006/gojorl3zqp.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
