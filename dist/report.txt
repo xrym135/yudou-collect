@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-10-10 18:13:54
+# Collect Time: 2025-10-10 20:10:11
 
 
 ## Site: datiya
@@ -8,15 +8,6 @@
 |-----------------------------------------------------|---------|-----------|
 | https://free.datiya.com/uploads/20251010-clash.yaml | No      | Yes       |
 | https://free.datiya.com/uploads/20251010-v2ray.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251010-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -31,12 +22,31 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251010-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
 | https://oneclash.githubrowcontent.com/2025/10/20251010.yaml | No      | Yes       |
 | https://oneclash.githubrowcontent.com/2025/10/20251010.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: 85la
+
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/10/2025101008740nhT2H.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/10/202510100843IpxWAo.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -49,17 +59,11 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20251010/7jk6jpnpc0.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20251010/61x74mco7s.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
