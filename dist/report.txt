@@ -1,14 +1,5 @@
 
-# Collect Time: 2025-10-16 10:11:20
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251016-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-10-16 12:18:05
 
 
 ## Site: nodefree
@@ -17,6 +8,15 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/10/20251016.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/10/20251016.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251016-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -31,22 +31,26 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: 85la
 
-| URL                                                   | Tried   | Success   |
-|-------------------------------------------------------|---------|-----------|
-| https://fs.v2rayse.com/share/20251016/col5ak2wn4.yaml | No      | Yes       |
-| https://fs.v2rayse.com/share/20251016/it43evvhgc.txt  | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
+## Site: cfmeme
 
-| URL                                                                     | Tried   | Success   |
-|-------------------------------------------------------------------------|---------|-----------|
-| https://www.85la.com/wp-content/uploads/2025/10/202510155450bs0JTK.yaml | No      | Yes       |
-| https://www.85la.com/wp-content/uploads/2025/10/202510155302vScFsI.txt  | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: yudou
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -59,11 +63,3 @@
 | https://free.datiya.com/uploads/20251016-v2ray.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 1
-
-
-## Site: yudou
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
