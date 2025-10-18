@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-10-18 12:15:25
+# Collect Time: 2025-10-18 14:08:04
 
 
 ## Site: datiya
@@ -12,21 +12,21 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251018-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: nodefree
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/10/20251018.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/10/20251018.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251018-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -43,8 +43,10 @@
 
 ## Site: 85la
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/10/202510183576qLkCuY.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/10/202510183524q3dTfO.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
