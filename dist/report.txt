@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-10-19 08:11:00
+# Collect Time: 2025-10-19 10:08:49
 
 
 ## Site: jichangx
@@ -31,14 +31,14 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: datiya
 
-| URL                                                   | Tried   | Success   |
-|-------------------------------------------------------|---------|-----------|
-| https://fs.v2rayse.com/share/20251019/09aabs7uq6.yaml | No      | Yes       |
-| https://fs.v2rayse.com/share/20251019/4taj43bhaf.txt  | No      | Yes       |
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251019-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20251019-v2ray.txt  | Yes     | No        |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 0 / 采集失败: 1
 
 
 ## Site: yudou
@@ -49,14 +49,14 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: cfmeme
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251019-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20251019-v2ray.txt  | Yes     | No        |
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20251019/09aabs7uq6.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20251019/4taj43bhaf.txt  | No      | Yes       |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: 85la
