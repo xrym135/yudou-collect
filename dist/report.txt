@@ -1,21 +1,5 @@
 
-# Collect Time: 2025-10-25 02:22:32
-
-
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-10-25 02:56:05
 
 
 ## Site: jichangx
@@ -27,12 +11,30 @@
 采集成功: 0 / 采集失败: 1
 
 
+## Site: 85la
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
 | https://free.datiya.com/uploads/20251025-clash.yaml | Yes     | No        |
 | https://free.datiya.com/uploads/20251025-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2025/10/20251025.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2025/10/20251025.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
 
@@ -55,11 +57,9 @@
 采集成功: 0 / 采集失败: 2
 
 
-## Site: nodefree
+## Site: cfmeme
 
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/10/20251025.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2025/10/20251025.txt  | Yes     | No        |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
-采集成功: 0 / 采集失败: 2
+采集成功: 0 / 采集失败: 0
