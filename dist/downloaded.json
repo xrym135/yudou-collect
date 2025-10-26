@@ -2,8 +2,14 @@
   "jichangx": {
     "https://jichangx.com/nodes/v2ray-20251026-01": true
   },
-  "cfmeme": {},
-  "85la": {},
+  "cfmeme": {
+    "https://fs.v2rayse.com/share/20251022/9m1gbuirfy.yaml": true,
+    "https://fs.v2rayse.com/share/20251022/ip9hv7cp52.txt": true
+  },
+  "85la": {
+    "https://www.85la.com/wp-content/uploads/2025/10/2025102529317DIwbs.yaml": true,
+    "https://www.85la.com/wp-content/uploads/2025/10/202510253087INzREf.txt": true
+  },
   "nodefree": {
     "https://nodefree.githubrowcontent.com/2025/10/20251026.yaml": true,
     "https://nodefree.githubrowcontent.com/2025/10/20251026.txt": true
