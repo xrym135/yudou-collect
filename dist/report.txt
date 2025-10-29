@@ -1,5 +1,14 @@
 
-# Collect Time: 2025-10-29 20:10:27
+# Collect Time: 2025-10-29 22:09:19
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251029-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -8,15 +17,6 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/10/20251029.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/10/20251029.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251029-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -31,12 +31,10 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: yudou
 
-| URL                                                   | Tried   | Success   |
-|-------------------------------------------------------|---------|-----------|
-| https://fs.v2rayse.com/share/20251022/9m1gbuirfy.yaml | No      | Yes       |
-| https://fs.v2rayse.com/share/20251022/ip9hv7cp52.txt  | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -51,10 +49,12 @@
 采集成功: 0 / 采集失败: 1
 
 
-## Site: yudou
+## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                   | Tried   | Success   |
+|-------------------------------------------------------|---------|-----------|
+| https://fs.v2rayse.com/share/20251022/9m1gbuirfy.yaml | No      | Yes       |
+| https://fs.v2rayse.com/share/20251022/ip9hv7cp52.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
