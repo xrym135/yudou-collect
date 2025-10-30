@@ -1,11 +1,1 @@
-REMOTE_ADDR = 13.59.113.45
-REMOTE_PORT = 60539
-REQUEST_METHOD = GET
-REQUEST_URI = /
-REQUEST_TIME_FLOAT = 1761618359.2855034
-REQUEST_TIME = 1761618359
-HTTP_HOST = free.datiya.com
-HTTP_USER-AGENT = Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-HTTP_ACCEPT-ENCODING = gzip, deflate
-HTTP_ACCEPT = */*
-HTTP_CONNECTION = keep-alive
+<html><head><title>pve - Proxmox Virtual Environment</title></head><body></body></html>
