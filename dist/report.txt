@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-10-31 18:14:19
+# Collect Time: 2025-10-31 20:11:18
 
 
 ## Site: datiya
@@ -43,8 +43,10 @@
 
 ## Site: 85la
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/10/202510299040J4zqdQ.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/10/202510298949PHRCKL.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -59,7 +61,8 @@
 
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251031/5g7tb7yq.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
