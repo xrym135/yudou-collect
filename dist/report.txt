@@ -1,15 +1,5 @@
 
-# Collect Time: 2025-11-02 14:07:47
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251102-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20251102-v2ray.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-11-02 16:09:33
 
 
 ## Site: nodefree
@@ -18,6 +8,16 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/11/20251102.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/11/20251102.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251102-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20251102-v2ray.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -41,6 +41,15 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: cfmeme
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251102/bme3chkk.txt | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: 85la
 
 | URL                                                                     | Tried   | Success   |
@@ -55,14 +64,5 @@
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20251102/bme3chkk.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
