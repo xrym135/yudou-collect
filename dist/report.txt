@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-11-05 18:13:50
+# Collect Time: 2025-11-05 20:10:57
 
 
 ## Site: datiya
@@ -62,7 +62,7 @@
 
 | URL                                                                     | Tried   | Success   |
 |-------------------------------------------------------------------------|---------|-----------|
-| https://www.85la.com/wp-content/uploads/2025/11/202511018344Go6eSZ.yaml | No      | Yes       |
-| https://www.85la.com/wp-content/uploads/2025/11/202511018190RwchQP.txt  | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/11/202511056762fOJYiS.yaml | Yes     | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/11/202511056868E4oyxL.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
