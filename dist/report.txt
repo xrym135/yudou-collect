@@ -1,12 +1,13 @@
 
-# Collect Time: 2025-11-07 03:03:46
+# Collect Time: 2025-11-07 03:42:02
 
 
-## Site: jichangx
+## Site: oneclash
 
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251107-01 | No      | Yes       |
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://oneclash.githubrowcontent.com/2025/11/20251107.yaml | No      | Yes       |
+| https://oneclash.githubrowcontent.com/2025/11/20251107.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -21,20 +22,11 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: oneclash
+## Site: jichangx
 
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/11/20251107.yaml | No      | Yes       |
-| https://oneclash.githubrowcontent.com/2025/11/20251107.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251107-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -57,9 +49,20 @@
 采集成功: 0 / 采集失败: 1
 
 
+## Site: 85la
+
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/11/202511056762fOJYiS.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/11/202511056868E4oyxL.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251107/fp9j030c.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
