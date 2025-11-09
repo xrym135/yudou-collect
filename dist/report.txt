@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-11-09 02:42:36
+# Collect Time: 2025-11-09 03:05:56
 
 
 ## Site: jichangx
@@ -39,6 +39,16 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: 85la
+
+| URL                                                                     | Tried   | Success   |
+|-------------------------------------------------------------------------|---------|-----------|
+| https://www.85la.com/wp-content/uploads/2025/11/202511056762fOJYiS.yaml | No      | Yes       |
+| https://www.85la.com/wp-content/uploads/2025/11/202511056868E4oyxL.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
@@ -54,15 +64,5 @@
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
 | https://s3.v2rayse.com/public/20251109/j7g5nkdr.txt | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: 85la
-
-| URL                                                                     | Tried   | Success   |
-|-------------------------------------------------------------------------|---------|-----------|
-| https://www.85la.com/wp-content/uploads/2025/11/202511056762fOJYiS.yaml | No      | Yes       |
-| https://www.85la.com/wp-content/uploads/2025/11/202511056868E4oyxL.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
