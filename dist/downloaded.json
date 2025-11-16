@@ -1,9 +1,9 @@
 {
   "jichangx": {
-    "https://jichangx.com/nodes/v2ray-20251116-01": false
+    "https://jichangx.com/nodes/v2ray-20251116-01": true
   },
   "cfmeme": {
-    "https://s3.v2rayse.com/public/20251115/10vq9euw.txt": true
+    "https://s3.v2rayse.com/public/20251116/3ge1p8u9.txt": true
   },
   "85la": {
     "https://www.85la.com/wp-content/uploads/2025/11/202511130480dsm47r.yaml": true,
@@ -14,7 +14,7 @@
     "https://nodefree.githubrowcontent.com/2025/11/20251116.txt": true
   },
   "oneclash": {
-    "https://oneclash.githubrowcontent.com/2025/11/20251116.yaml": false,
+    "https://oneclash.githubrowcontent.com/2025/11/20251116.yaml": true,
     "https://oneclash.githubrowcontent.com/2025/11/20251116.txt": true
   },
   "yudou": {
@@ -23,6 +23,6 @@
   },
   "datiya": {
     "https://free.datiya.com/uploads/20251116-clash.yaml": true,
-    "https://free.datiya.com/uploads/20251116-v2ray.txt": false
+    "https://free.datiya.com/uploads/20251116-v2ray.txt": true
   }
 }
