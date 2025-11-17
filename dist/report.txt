@@ -1,5 +1,14 @@
 
-# Collect Time: 2025-11-17 02:43:27
+# Collect Time: 2025-11-17 03:08:15
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251117-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -22,11 +31,10 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: jichangx
+## Site: 85la
 
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251117-01 | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -39,14 +47,6 @@
 | https://free.datiya.com/uploads/20251117-v2ray.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 1
-
-
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
 
 
 ## Site: yudou
