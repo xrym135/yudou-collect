@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-11-26 03:46:46
+# Collect Time: 2025-11-26 04:16:17
 
 
 ## Site: jichangx
@@ -31,20 +31,21 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
+
+
+## Site: cfmeme
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251126/n53d89b8.txt | Yes     | Yes       |
+
+采集成功: 1 / 采集失败: 0
 
 
 ## Site: datiya
