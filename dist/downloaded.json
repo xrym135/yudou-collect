@@ -1,9 +1,9 @@
 {
   "jichangx": {
-    "https://jichangx.com/nodes/v2ray-20251128-01": false
+    "https://jichangx.com/nodes/v2ray-20251128-01": true
   },
   "cfmeme": {
-    "https://s3.v2rayse.com/public/20251127/kbm32gdi.txt": true
+    "https://s3.v2rayse.com/public/20251128/bsn3xiad.txt": true
   },
   "85la": {
     "https://www.85la.com/wp-content/uploads/2025/11/202511186252y73Szc.yaml": true,
@@ -22,7 +22,7 @@
     "https://yy.yudou66.top/202510/20251012bas2se.txt": true
   },
   "datiya": {
-    "https://free.datiya.com/uploads/20251128-clash.yaml": false,
+    "https://free.datiya.com/uploads/20251128-clash.yaml": true,
     "https://free.datiya.com/uploads/20251128-v2ray.txt": false
   }
 }
