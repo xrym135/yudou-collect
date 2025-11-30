@@ -1,22 +1,24 @@
 
-# Collect Time: 2025-11-30 00:52:32
-
-
-## Site: cfmeme
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-11-30 02:54:33
 
 
 ## Site: jichangx
 
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251130-01 | Yes     | No        |
+| https://jichangx.com/nodes/v2ray-20251130-01 | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 1 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251130-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20251130-v2ray.txt  | Yes     | No        |
+
+采集成功: 1 / 采集失败: 1
 
 
 ## Site: 85la
@@ -27,14 +29,23 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2025/11/20251130.yaml | Yes     | Yes       |
+| https://nodefree.githubrowcontent.com/2025/11/20251130.txt  | Yes     | Yes       |
+
+采集成功: 2 / 采集失败: 0
+
+
+## Site: cfmeme
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251130-clash.yaml | Yes     | No        |
-| https://free.datiya.com/uploads/20251130-v2ray.txt  | Yes     | No        |
+| https://s3.v2rayse.com/public/20251130/lepvgg5i.txt | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 2
+采集成功: 1 / 采集失败: 0
 
 
 ## Site: yudou
@@ -49,17 +60,7 @@
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/11/20251130.yaml | Yes     | No        |
-| https://oneclash.githubrowcontent.com/2025/11/20251130.txt  | Yes     | No        |
+| https://oneclash.githubrowcontent.com/2025/11/20251130.yaml | Yes     | Yes       |
+| https://oneclash.githubrowcontent.com/2025/11/20251130.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 2
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/11/20251130.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2025/11/20251130.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 2
+采集成功: 2 / 采集失败: 0
