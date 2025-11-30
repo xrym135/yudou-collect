@@ -1,13 +1,12 @@
 
-# Collect Time: 2025-11-30 18:13:00
+# Collect Time: 2025-11-30 20:10:31
 
 
-## Site: oneclash
+## Site: jichangx
 
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/11/20251130.yaml | No      | Yes       |
-| https://oneclash.githubrowcontent.com/2025/11/20251130.txt  | No      | Yes       |
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251130-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -22,16 +21,25 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: jichangx
+## Site: oneclash
 
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251130-01 | No      | Yes       |
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://oneclash.githubrowcontent.com/2025/11/20251130.yaml | No      | Yes       |
+| https://oneclash.githubrowcontent.com/2025/11/20251130.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
+## Site: cfmeme
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: yudou
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -49,18 +57,9 @@
 采集成功: 0 / 采集失败: 1
 
 
-## Site: yudou
+## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20251130/lepvgg5i.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
