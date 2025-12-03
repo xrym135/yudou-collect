@@ -1,37 +1,18 @@
 
-# Collect Time: 2025-12-02 22:09:11
+# Collect Time: 2025-12-03 00:45:23
 
 
-## Site: jichangx
+## Site: datiya
 
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251202-01 | No      | Yes       |
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251203-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20251203-v2ray.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/12/20251202.yaml | No      | Yes       |
-| https://nodefree.githubrowcontent.com/2025/12/20251202.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
 
 
-## Site: oneclash
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/12/20251202.yaml | No      | Yes       |
-| https://oneclash.githubrowcontent.com/2025/12/20251202.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
+## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -39,14 +20,22 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251203-01 | Yes     | Yes       |
+
+采集成功: 1 / 采集失败: 0
+
+
+## Site: cfmeme
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251202-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20251202-v2ray.txt  | Yes     | No        |
+| https://s3.v2rayse.com/public/20251203/q20u1dt1.txt | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 1 / 采集失败: 0
 
 
 ## Site: yudou
@@ -57,9 +46,21 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
+## Site: nodefree
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2025/12/20251203.yaml | Yes     | Yes       |
+| https://nodefree.githubrowcontent.com/2025/12/20251203.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
+
+
+## Site: oneclash
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://oneclash.githubrowcontent.com/2025/12/20251203.yaml | Yes     | Yes       |
+| https://oneclash.githubrowcontent.com/2025/12/20251203.txt  | Yes     | Yes       |
+
+采集成功: 2 / 采集失败: 0
