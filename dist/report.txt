@@ -1,15 +1,5 @@
 
-# Collect Time: 2025-12-04 20:11:48
-
-
-## Site: oneclash
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2025/12/20251204.yaml | No      | Yes       |
-| https://oneclash.githubrowcontent.com/2025/12/20251204.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2025-12-04 22:08:35
 
 
 ## Site: jichangx
@@ -31,20 +21,21 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: oneclash
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251204-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20251204-v2ray.txt  | Yes     | No        |
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://oneclash.githubrowcontent.com/2025/12/20251204.yaml | No      | Yes       |
+| https://oneclash.githubrowcontent.com/2025/12/20251204.txt  | No      | Yes       |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251204/btzj8e14.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -63,3 +54,13 @@
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251204-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20251204-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 1
