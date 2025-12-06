@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-12-06 20:10:07
+# Collect Time: 2025-12-06 22:08:43
 
 
 ## Site: jichangx
@@ -31,25 +31,16 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: cfmeme
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251206-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20251206-v2ray.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 1
-
-
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| https://s3.v2rayse.com/public/20251206/rokprbhn.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -63,3 +54,13 @@
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20251206-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20251206-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 1
