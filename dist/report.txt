@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-12-07 08:12:05
+# Collect Time: 2025-12-07 10:09:28
 
 
 ## Site: jichangx
@@ -59,8 +59,7 @@
 
 ## Site: cfmeme
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20251207/024fnl99.txt | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
