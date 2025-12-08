@@ -1,11 +1,1 @@
-REMOTE_ADDR = 18.188.141.177
-REMOTE_PORT = 65383
-REQUEST_METHOD = GET
-REQUEST_URI = /uploads/20251205-v2ray.txt
-REQUEST_TIME_FLOAT = 1764895537.6000252
-REQUEST_TIME = 1764895537
-HTTP_HOST = free.datiya.com
-HTTP_USER-AGENT = Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-HTTP_ACCEPT-ENCODING = gzip, deflate, zstd
-HTTP_ACCEPT = */*
-HTTP_CONNECTION = keep-alive
+<html><head><title>ipTIME N104plus KTT</title></head><body></body></html>
