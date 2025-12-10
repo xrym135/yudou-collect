@@ -1,5 +1,14 @@
 
-# Collect Time: 2025-12-10 10:11:40
+# Collect Time: 2025-12-10 12:19:38
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251210-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -12,29 +21,12 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251210-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
 | https://oneclash.githubrowcontent.com/2025/12/20251210.yaml | No      | Yes       |
 | https://oneclash.githubrowcontent.com/2025/12/20251210.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -61,5 +53,14 @@
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: cfmeme
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251210/8ads1tgp.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
