@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-12-13 03:46:52
+# Collect Time: 2025-12-13 04:16:32
 
 
 ## Site: jichangx
@@ -11,7 +11,7 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -29,22 +29,24 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
+## Site: nodefree
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2025/12/20251213.yaml | Yes     | Yes       |
+| https://nodefree.githubrowcontent.com/2025/12/20251213.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 2 / 采集失败: 0
 
 
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20251213-clash.yaml | Yes     | No        |
-| https://free.datiya.com/uploads/20251213-v2ray.txt  | Yes     | No        |
+| https://free.datiya.com/uploads/20251213-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20251213-v2ray.txt  | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 2
+采集成功: 2 / 采集失败: 0
 
 
 ## Site: yudou
@@ -55,11 +57,10 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: nodefree
+## Site: cfmeme
 
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2025/12/20251213.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2025/12/20251213.txt  | Yes     | No        |
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251213/1y7n2rh6.txt | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 2
+采集成功: 1 / 采集失败: 0
