@@ -1,5 +1,5 @@
 
-# Collect Time: 2025-12-21 08:13:00
+# Collect Time: 2025-12-21 10:10:18
 
 
 ## Site: nodefree
@@ -8,6 +8,15 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/12/20251221.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/12/20251221.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251221-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -22,20 +31,10 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: jichangx
+## Site: 85la
 
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251221-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20251221/6qjta1bc.txt | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -58,9 +57,10 @@
 采集成功: 0 / 采集失败: 1
 
 
-## Site: 85la
+## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251221/6qjta1bc.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
