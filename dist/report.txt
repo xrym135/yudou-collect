@@ -1,5 +1,14 @@
 
-# Collect Time: 2025-12-28 03:28:26
+# Collect Time: 2025-12-28 04:30:52
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251228-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -8,15 +17,6 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/12/20251228.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/12/20251228.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251228-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -33,8 +33,9 @@
 
 ## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251228/d3mtdi1e.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
