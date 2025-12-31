@@ -1,5 +1,14 @@
 
-# Collect Time: 2025-12-31 02:53:47
+# Collect Time: 2025-12-31 03:19:17
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20251231-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -8,15 +17,6 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2025/12/20251231.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2025/12/20251231.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20251231-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -39,11 +39,10 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: yudou
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20251231/25o5tivj.txt | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -58,9 +57,10 @@
 采集成功: 0 / 采集失败: 1
 
 
-## Site: yudou
+## Site: cfmeme
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20251231/25o5tivj.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
