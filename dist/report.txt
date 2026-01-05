@@ -1,5 +1,14 @@
 
-# Collect Time: 2026-01-05 10:14:09
+# Collect Time: 2026-01-05 12:20:20
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260105-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: nodefree
@@ -8,15 +17,6 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2026/01/20260105.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2026/01/20260105.txt  | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260105-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -39,13 +39,14 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: datiya
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20260105/2tylt48a.txt | No      | Yes       |
+| https://free.datiya.com/uploads/20260105-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260105-v2ray.txt  | Yes     | No        |
 
-采集成功: 0 / 采集失败: 0
+采集成功: 0 / 采集失败: 1
 
 
 ## Site: yudou
@@ -56,11 +57,10 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: cfmeme
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260105-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260105-v2ray.txt  | Yes     | No        |
+| https://s3.v2rayse.com/public/20260105/2tylt48a.txt | No      | Yes       |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
