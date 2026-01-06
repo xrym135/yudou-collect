@@ -1,5 +1,15 @@
 
-# Collect Time: 2026-01-06 20:11:59
+# Collect Time: 2026-01-06 22:10:27
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260106-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260106-v2ray.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: jichangx
@@ -7,16 +17,6 @@
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
 | https://jichangx.com/nodes/v2ray-20260106-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/01/20260106.yaml | No      | Yes       |
-| https://nodefree.githubrowcontent.com/2026/01/20260106.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -31,11 +31,12 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: nodefree
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20260106/zv7c8uq5.txt | No      | Yes       |
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/01/20260106.yaml | No      | Yes       |
+| https://nodefree.githubrowcontent.com/2026/01/20260106.txt  | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -48,19 +49,18 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: cfmeme
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20260106/zv7c8uq5.txt | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: 85la
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260106-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260106-v2ray.txt  | Yes     | Yes       |
-
-采集成功: 1 / 采集失败: 0
