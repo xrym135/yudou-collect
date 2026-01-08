@@ -1,14 +1,5 @@
 
-# Collect Time: 2026-01-08 02:56:05
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260108-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2026-01-08 03:21:35
 
 
 ## Site: nodefree
@@ -17,6 +8,15 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://nodefree.githubrowcontent.com/2026/01/20260108.yaml | No      | Yes       |
 | https://nodefree.githubrowcontent.com/2026/01/20260108.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260108-01 | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -39,6 +39,14 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: 85la
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
@@ -47,14 +55,6 @@
 | https://free.datiya.com/uploads/20260108-v2ray.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 1
-
-
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
 
 
 ## Site: cfmeme
