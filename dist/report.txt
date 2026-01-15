@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-01-15 02:56:38
+# Collect Time: 2026-01-15 03:22:29
 
 
 ## Site: jichangx
@@ -31,14 +31,6 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: datiya
 
 | URL                                                 | Tried   | Success   |
@@ -47,6 +39,14 @@
 | https://free.datiya.com/uploads/20260115-v2ray.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 1
+
+
+## Site: 85la
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: yudou
