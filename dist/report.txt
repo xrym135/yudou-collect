@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-01-21 16:22:12
+# Collect Time: 2026-01-21 18:27:29
 
 
 ## Site: datiya
@@ -51,9 +51,8 @@
 
 ## Site: cfmeme
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20260121/2pxt1pqy.txt | No      | Yes       |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
