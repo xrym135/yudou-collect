@@ -1,5 +1,24 @@
 
-# Collect Time: 2026-01-22 03:02:54
+# Collect Time: 2026-01-22 03:28:01
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260122-01 | Yes     | Yes       |
+
+采集成功: 1 / 采集失败: 0
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/01/20260122.yaml | Yes     | Yes       |
+| https://nodefree.githubrowcontent.com/2026/01/20260122.txt  | Yes     | Yes       |
+
+采集成功: 2 / 采集失败: 0
 
 
 ## Site: 85la
@@ -8,25 +27,6 @@
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260122-clash.yaml | Yes     | No        |
-| https://free.datiya.com/uploads/20260122-v2ray.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 2
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260122-01 | Yes     | No        |
-
-采集成功: 0 / 采集失败: 1
 
 
 ## Site: cfmeme
@@ -45,12 +45,12 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: nodefree
+## Site: datiya
 
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/01/20260122.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/01/20260122.txt  | Yes     | No        |
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260122-clash.yaml | Yes     | No        |
+| https://free.datiya.com/uploads/20260122-v2ray.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
 
