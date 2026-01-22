@@ -1,14 +1,5 @@
 
-# Collect Time: 2026-01-22 06:17:40
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260122-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2026-01-22 08:16:13
 
 
 ## Site: nodefree
@@ -21,27 +12,26 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260122-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2026/01/20260122.yaml | Yes     | Yes       |
-| https://oneclash.githubrowcontent.com/2026/01/20260122.txt  | Yes     | Yes       |
+| https://oneclash.githubrowcontent.com/2026/01/20260122.yaml | No      | Yes       |
+| https://oneclash.githubrowcontent.com/2026/01/20260122.txt  | No      | Yes       |
 
-采集成功: 2 / 采集失败: 0
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260122-clash.yaml | Yes     | Yes       |
-| https://free.datiya.com/uploads/20260122-v2ray.txt  | Yes     | No        |
-
-采集成功: 1 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
 
 
-## Site: 85la
+## Site: cfmeme
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -57,10 +47,19 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: cfmeme
+## Site: 85la
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20260122/7chbztej.txt | Yes     | Yes       |
+| https://free.datiya.com/uploads/20260122-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260122-v2ray.txt  | Yes     | No        |
 
-采集成功: 1 / 采集失败: 0
+采集成功: 0 / 采集失败: 1
