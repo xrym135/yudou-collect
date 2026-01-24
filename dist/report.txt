@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-01-24 20:11:07
+# Collect Time: 2026-01-24 22:09:20
 
 
 ## Site: jichangx
@@ -21,6 +21,16 @@
 采集成功: 0 / 采集失败: 1
 
 
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/01/20260124.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/01/20260124.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
+
+
 ## Site: 85la
 
 | URL   | Tried   | Success   |
@@ -36,16 +46,6 @@
 | https://s3.v2rayse.com/public/20260124/nxr313cv.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/01/20260124.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/01/20260124.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 2
 
 
 ## Site: yudou
