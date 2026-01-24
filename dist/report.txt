@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-01-24 03:18:28
+# Collect Time: 2026-01-24 03:58:46
 
 
 ## Site: jichangx
@@ -7,14 +7,6 @@
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
 | https://jichangx.com/nodes/v2ray-20260124-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -27,10 +19,21 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: yudou
+## Site: datiya
 
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260124-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260124-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 1
+
+
+## Site: cfmeme
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20260124/nxr313cv.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
 
@@ -45,14 +48,12 @@
 采集成功: 0 / 采集失败: 2
 
 
-## Site: datiya
+## Site: yudou
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260124-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260124-v2ray.txt  | Yes     | No        |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
-采集成功: 0 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: oneclash
