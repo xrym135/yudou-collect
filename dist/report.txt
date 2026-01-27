@@ -1,23 +1,14 @@
 
-# Collect Time: 2026-01-26 22:11:53
+# Collect Time: 2026-01-27 00:53:10
 
 
 ## Site: jichangx
 
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260126-01 | No      | Yes       |
+| https://jichangx.com/nodes/v2ray-20260127-01 | Yes     | Yes       |
 
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://s3.v2rayse.com/public/20260126/9h3wjf70.txt | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+采集成功: 1 / 采集失败: 0
 
 
 ## Site: 85la
@@ -32,10 +23,10 @@
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260126-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260126-v2ray.txt  | Yes     | No        |
+| https://free.datiya.com/uploads/20260127-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20260127-v2ray.txt  | Yes     | No        |
 
-采集成功: 0 / 采集失败: 1
+采集成功: 1 / 采集失败: 1
 
 
 ## Site: yudou
@@ -50,8 +41,8 @@
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/01/20260126.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/01/20260126.txt  | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/01/20260127.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/01/20260127.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
 
@@ -60,7 +51,16 @@
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2026/01/20260126.yaml | Yes     | No        |
-| https://oneclash.githubrowcontent.com/2026/01/20260126.txt  | Yes     | No        |
+| https://oneclash.githubrowcontent.com/2026/01/20260127.yaml | Yes     | No        |
+| https://oneclash.githubrowcontent.com/2026/01/20260127.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
+
+
+## Site: cfmeme
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://s3.v2rayse.com/public/20260127/617gqg7b.txt | Yes     | Yes       |
+
+采集成功: 1 / 采集失败: 0
