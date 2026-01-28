@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-01-28 03:26:22
+# Collect Time: 2026-01-28 04:30:38
 
 
 ## Site: jichangx
@@ -19,16 +19,6 @@
 | https://nodefree.githubrowcontent.com/2026/01/20260128.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260128-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260128-v2ray.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 1
 
 
 ## Site: oneclash
@@ -56,6 +46,16 @@
 | https://s3.v2rayse.com/public/20260128/ed7atlr6.txt | No      | Yes       |
 
 采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260128-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260128-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 1
 
 
 ## Site: 85la
