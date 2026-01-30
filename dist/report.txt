@@ -1,14 +1,5 @@
 
-# Collect Time: 2026-01-29 22:14:48
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260129-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2026-01-30 00:57:44
 
 
 ## Site: 85la
@@ -19,12 +10,11 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: datiya
+## Site: jichangx
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260129-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260129-v2ray.txt  | Yes     | No        |
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260130-01 | Yes     | No        |
 
 采集成功: 0 / 采集失败: 1
 
@@ -37,24 +27,14 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: nodefree
+## Site: datiya
 
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/01/20260129.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/01/20260129.txt  | Yes     | No        |
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260130-clash.yaml | Yes     | No        |
+| https://free.datiya.com/uploads/20260130-v2ray.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
-
-
-## Site: oneclash
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2026/01/20260129.yaml | Yes     | Yes       |
-| https://oneclash.githubrowcontent.com/2026/01/20260129.txt  | Yes     | Yes       |
-
-采集成功: 2 / 采集失败: 0
 
 
 ## Site: yudou
@@ -63,3 +43,23 @@
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/01/20260130.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/01/20260130.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
+
+
+## Site: oneclash
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://oneclash.githubrowcontent.com/2026/01/20260130.yaml | Yes     | No        |
+| https://oneclash.githubrowcontent.com/2026/01/20260130.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
