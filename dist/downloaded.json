@@ -1,6 +1,6 @@
 {
   "jichangx": {
-    "https://jichangx.com/nodes/v2ray-20260205-01": false
+    "https://jichangx.com/nodes/v2ray-20260205-01": true
   },
   "cfmeme": {},
   "85la": {
@@ -12,7 +12,7 @@
     "https://nodefree.githubrowcontent.com/2026/02/20260205.txt": false
   },
   "oneclash": {
-    "https://oneclash.githubrowcontent.com/2026/02/20260205.yaml": false,
+    "https://oneclash.githubrowcontent.com/2026/02/20260205.yaml": true,
     "https://oneclash.githubrowcontent.com/2026/02/20260205.txt": false
   },
   "yudou": {
@@ -21,6 +21,6 @@
   },
   "datiya": {
     "https://free.datiya.com/uploads/20260205-clash.yaml": true,
-    "https://free.datiya.com/uploads/20260205-v2ray.txt": false
+    "https://free.datiya.com/uploads/20260205-v2ray.txt": true
   }
 }

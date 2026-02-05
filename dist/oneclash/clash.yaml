@@ -1,11 +1,1 @@
-REMOTE_ADDR = 78.12.230.52
-REMOTE_PORT = 62978
-REQUEST_METHOD = GET
-REQUEST_URI = /2026/01/20260130.yaml
-REQUEST_TIME_FLOAT = 1769743536.0154798
-REQUEST_TIME = 1769743536
-HTTP_HOST = oneclash.githubrowcontent.com
-HTTP_USER-AGENT = Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-HTTP_ACCEPT-ENCODING = gzip, deflate, zstd
-HTTP_ACCEPT = */*
-HTTP_CONNECTION = keep-alive
+<html><head><title>User Portal</title></head><body></body></html>
