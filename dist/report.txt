@@ -1,5 +1,25 @@
 
-# Collect Time: 2026-02-06 20:21:13
+# Collect Time: 2026-02-06 22:11:25
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260206-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260206-v2ray.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/02/20260206.yaml | No      | Yes       |
+| https://nodefree.githubrowcontent.com/2026/02/20260206.txt  | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: jichangx
@@ -25,26 +45,6 @@
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260206-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260206-v2ray.txt  | Yes     | Yes       |
-
-采集成功: 1 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/02/20260206.yaml | Yes     | Yes       |
-| https://nodefree.githubrowcontent.com/2026/02/20260206.txt  | Yes     | Yes       |
-
-采集成功: 2 / 采集失败: 0
 
 
 ## Site: yudou
