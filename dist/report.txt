@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-02-10 10:41:39
+# Collect Time: 2026-02-10 12:41:55
 
 
 ## Site: jichangx
@@ -11,15 +11,27 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260210-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260210-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 1
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/02/20260210.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/02/20260210.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
+
+
 ## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: cfmeme
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -35,16 +47,6 @@
 采集成功: 0 / 采集失败: 0
 
 
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/02/20260210.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/02/20260210.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 2
-
-
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
@@ -55,11 +57,9 @@
 采集成功: 0 / 采集失败: 2
 
 
-## Site: datiya
+## Site: cfmeme
 
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260210-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260210-v2ray.txt  | Yes     | No        |
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
-采集成功: 0 / 采集失败: 1
+采集成功: 0 / 采集失败: 0
