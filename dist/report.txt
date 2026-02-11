@@ -1,14 +1,5 @@
 
-# Collect Time: 2026-02-10 22:28:59
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260210-01 | No      | Yes       |
-
-采集成功: 0 / 采集失败: 0
+# Collect Time: 2026-02-11 01:10:53
 
 
 ## Site: 85la
@@ -19,7 +10,24 @@
 采集成功: 0 / 采集失败: 0
 
 
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260211-01 | Yes     | Yes       |
+
+采集成功: 1 / 采集失败: 0
+
+
 ## Site: cfmeme
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: yudou
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
@@ -31,35 +39,27 @@
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260210-clash.yaml | No      | Yes       |
-| https://free.datiya.com/uploads/20260210-v2ray.txt  | Yes     | No        |
+| https://free.datiya.com/uploads/20260211-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20260211-v2ray.txt  | Yes     | No        |
 
-采集成功: 0 / 采集失败: 1
-
-
-## Site: yudou
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/02/20260210.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/02/20260210.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 2
+采集成功: 1 / 采集失败: 1
 
 
 ## Site: oneclash
 
 | URL                                                         | Tried   | Success   |
 |-------------------------------------------------------------|---------|-----------|
-| https://oneclash.githubrowcontent.com/2026/02/20260210.yaml | Yes     | No        |
-| https://oneclash.githubrowcontent.com/2026/02/20260210.txt  | Yes     | No        |
+| https://oneclash.githubrowcontent.com/2026/02/20260211.yaml | Yes     | No        |
+| https://oneclash.githubrowcontent.com/2026/02/20260211.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/02/20260211.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/02/20260211.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
