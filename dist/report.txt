@@ -1,5 +1,24 @@
 
-# Collect Time: 2026-02-12 01:03:02
+# Collect Time: 2026-02-12 03:40:43
+
+
+## Site: jichangx
+
+| URL                                          | Tried   | Success   |
+|----------------------------------------------|---------|-----------|
+| https://jichangx.com/nodes/v2ray-20260212-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: datiya
+
+| URL                                                 | Tried   | Success   |
+|-----------------------------------------------------|---------|-----------|
+| https://free.datiya.com/uploads/20260212-clash.yaml | No      | Yes       |
+| https://free.datiya.com/uploads/20260212-v2ray.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 1
 
 
 ## Site: 85la
@@ -16,25 +35,6 @@
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
-
-
-## Site: jichangx
-
-| URL                                          | Tried   | Success   |
-|----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260212-01 | Yes     | Yes       |
-
-采集成功: 1 / 采集失败: 0
-
-
-## Site: datiya
-
-| URL                                                 | Tried   | Success   |
-|-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260212-clash.yaml | Yes     | Yes       |
-| https://free.datiya.com/uploads/20260212-v2ray.txt  | Yes     | No        |
-
-采集成功: 1 / 采集失败: 1
 
 
 ## Site: yudou
