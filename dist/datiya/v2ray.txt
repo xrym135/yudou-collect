@@ -1,1 +1,1 @@
-<html><head><title>Přihlásit se</title></head><body></body></html>
+<html><head><title>DiskStationGao - Synology DiskStation</title></head><body></body></html>
