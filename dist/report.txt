@@ -1,14 +1,14 @@
 
-# Collect Time: 2026-02-25 01:04:43
+# Collect Time: 2026-02-25 03:35:18
 
 
 ## Site: jichangx
 
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
-| https://jichangx.com/nodes/v2ray-20260225-01 | Yes     | Yes       |
+| https://jichangx.com/nodes/v2ray-20260225-01 | No      | Yes       |
 
-采集成功: 1 / 采集失败: 0
+采集成功: 0 / 采集失败: 0
 
 
 ## Site: 85la
@@ -23,10 +23,10 @@
 
 | URL                                                 | Tried   | Success   |
 |-----------------------------------------------------|---------|-----------|
-| https://free.datiya.com/uploads/20260225-clash.yaml | Yes     | Yes       |
+| https://free.datiya.com/uploads/20260225-clash.yaml | No      | Yes       |
 | https://free.datiya.com/uploads/20260225-v2ray.txt  | Yes     | No        |
 
-采集成功: 1 / 采集失败: 1
+采集成功: 0 / 采集失败: 1
 
 
 ## Site: cfmeme
