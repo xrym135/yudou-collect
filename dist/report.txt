@@ -1,5 +1,5 @@
 
-# Collect Time: 2026-02-25 14:42:30
+# Collect Time: 2026-02-25 16:56:38
 
 
 ## Site: jichangx
@@ -7,6 +7,14 @@
 | URL                                          | Tried   | Success   |
 |----------------------------------------------|---------|-----------|
 | https://jichangx.com/nodes/v2ray-20260225-01 | No      | Yes       |
+
+采集成功: 0 / 采集失败: 0
+
+
+## Site: 85la
+
+| URL   | Tried   | Success   |
+|-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
 
@@ -21,30 +29,12 @@
 采集成功: 0 / 采集失败: 1
 
 
-## Site: 85la
-
-| URL   | Tried   | Success   |
-|-------|---------|-----------|
-
-采集成功: 0 / 采集失败: 0
-
-
 ## Site: cfmeme
 
 | URL   | Tried   | Success   |
 |-------|---------|-----------|
 
 采集成功: 0 / 采集失败: 0
-
-
-## Site: nodefree
-
-| URL                                                         | Tried   | Success   |
-|-------------------------------------------------------------|---------|-----------|
-| https://nodefree.githubrowcontent.com/2026/02/20260225.yaml | Yes     | No        |
-| https://nodefree.githubrowcontent.com/2026/02/20260225.txt  | Yes     | No        |
-
-采集成功: 0 / 采集失败: 2
 
 
 ## Site: yudou
@@ -61,5 +51,15 @@
 |-------------------------------------------------------------|---------|-----------|
 | https://oneclash.githubrowcontent.com/2026/02/20260225.yaml | Yes     | No        |
 | https://oneclash.githubrowcontent.com/2026/02/20260225.txt  | Yes     | No        |
+
+采集成功: 0 / 采集失败: 2
+
+
+## Site: nodefree
+
+| URL                                                         | Tried   | Success   |
+|-------------------------------------------------------------|---------|-----------|
+| https://nodefree.githubrowcontent.com/2026/02/20260225.yaml | Yes     | No        |
+| https://nodefree.githubrowcontent.com/2026/02/20260225.txt  | Yes     | No        |
 
 采集成功: 0 / 采集失败: 2
